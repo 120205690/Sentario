@@ -1,0 +1,6 @@
+# Sentario
+Instrumental Music Generation Using Deep Learning with Sentiment-based Music Customisation
+This system identifies facial expressions using CNNs to generate piano music corresponding to the identified emotion using LSTMs. Neural Networks can be leveraged to understand the underlying mathematical nature of melodious as well as dissonant music, and thereby predict the next note of each sequence, generating music. This music is original yet inspired by the style and tone of the music comprising the datasets it has been trained on.
+The LeNet Convolutional Neural Network is trained for facial expression recognition through Tensor Flow and Keras. The OpenCV implementation of the Haar Cascade Algorithm is used for face detection. The Long Short-Term Memory (LSTM) Recurrent neural network is trained on a dataset comprised by piano music pieces through reinforced learning. The Music 21 Python library is used to handle the MIDI format musical pieces. The RMSprop optimizer is used to improve backpropagation. The training dataset is unique to each sentiment, thereby predisposing the generated music to a particular emotion. This is further improved by adjusting certain parameters of each note.
+
+Webapp - https://v12020-sentario.hf.space
