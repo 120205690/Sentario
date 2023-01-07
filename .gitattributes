@@ -36,3 +36,4 @@ Sad.hdf5 filter=lfs diff=lfs merge=lfs -text
 MasterModel/Neutral.hdf5 filter=lfs diff=lfs merge=lfs -text
 MasterModel/Agitated.hdf5 filter=lfs diff=lfs merge=lfs -text
 MasterModel/Happy.hdf5 filter=lfs diff=lfs merge=lfs -text
+*.hdf5 filter=lfs diff=lfs merge=lfs -text
